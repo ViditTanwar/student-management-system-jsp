@@ -21,4 +21,14 @@ This is a web based Student Management System developed using Java, JSP, JDBC an
 
 ## Tools
 - NetBeans IDE
+- ## Project Screenshots
+
+### Login Page
+![Login](login-page.png)
+
+### Insert Page
+![Insert](insert-page.png)
+
+### Show All Students
+![ShowAll](showll.png)
 - 
