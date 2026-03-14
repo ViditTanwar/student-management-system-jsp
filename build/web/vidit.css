@@ -1,0 +1,104 @@
+/* ===== Body and Background ===== */
+body {
+    background-image: url("s2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Horizontal Navbar ===== */
+.navbar {
+    display: flex;                /* horizontal */
+    justify-content: center;      /* center the links */
+    background-color: #007BFF;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #0056b3;
+}
+
+/* ===== Center wrapper ===== */
+.center-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* ===== Forms ===== */
+form {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+input[type=text],
+input[type=password] {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type=submit],
+input[type=button],
+button {
+    padding: 8px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type=submit]:hover,
+input[type=button]:hover,
+button:hover {
+    background-color: darkgreen;
+}
+
+/* ===== ShowAll Table ===== */
+.showall-table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.showall-table th,
+.showall-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.showall-table th {
+    background-color: #007BFF;
+    color: white;
+}
+
+.showall-table tr:hover {
+    background-color: #f1f1f1;
+}
